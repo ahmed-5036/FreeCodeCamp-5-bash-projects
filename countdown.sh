@@ -2,6 +2,20 @@
 #!/bin/bash 
 #Program that counts down to zero from a given argument
 #Pass integer argument in terminal as: ./countdown.sh 5
+: '
+Exptected output for $1=5:
+$ ./countdown.sh 5
+
+~~ Countdown Timer ~~
+
+5
+4
+3
+2
+1
+0
+'
+
 echo -e "\n~~ Countdown Timer ~~\n"
 
 : '
@@ -23,16 +37,3 @@ do
  ((I--))
  sleep 1
 done 
-: '
-Exptected output for $1=5:
-$ ./countdown.sh 5
-
-~~ Countdown Timer ~~
-
-5
-4
-3
-2
-1
-0
-'
