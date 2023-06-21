@@ -23,3 +23,16 @@ do
  ((I--))
  sleep 1
 done 
+: '
+Exptected output for $1=5:
+$ ./countdown.sh 5
+
+~~ Countdown Timer ~~
+
+5
+4
+3
+2
+1
+0
+'
